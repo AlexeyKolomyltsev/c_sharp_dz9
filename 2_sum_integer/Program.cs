@@ -2,7 +2,7 @@
 int SumOfMN(int m, int n)
 {   
     if(m == n) return m;
-    else return m + SumOfMN(m + 1, n);
+    return m + SumOfMN(m + 1, n);
 }
 
 Console.Write("Put number M ");
