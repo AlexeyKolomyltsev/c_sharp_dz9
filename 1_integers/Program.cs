@@ -6,8 +6,8 @@ void Posledovatelnost(int m, int n)
 }
 
 Console.Write("Put number M ");
-int m = int.Parse(Console.ReadLine());
+int m = int.Parse(Console.ReadLine() ?? "0");
 Console.Write("Put number N ");
-int n = int.Parse(Console.ReadLine());
-Console.Write("Последовательность чисел: ");
+int n = int.Parse(Console.ReadLine() ?? "0");
+Console.Write("Последовательность чисел: " );
 Posledovatelnost(m,n);
